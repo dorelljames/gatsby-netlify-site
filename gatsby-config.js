@@ -54,7 +54,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "gatsby-starter-default",
+        name: "dorelljames.com",
         short_name: "starter",
         start_url: "/",
         background_color: "#663399",
@@ -63,7 +63,7 @@ module.exports = {
         icon: "src/img/gatsby-icon.png" // This path is relative to the root of the site.
       }
     },
-    "gatsby-plugin-offline"
+    "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
